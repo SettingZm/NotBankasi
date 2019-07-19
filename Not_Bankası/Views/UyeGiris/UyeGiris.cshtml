@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "UyeGiris";
+    Layout = "~/Views/Shared/_LayoutKullanici.cshtml";
+}
+@section head{
+    <head>
+        <link href="~/Css/UyeKayıtSayfası.css" rel="stylesheet" />
+    </head>
+}
+
+<div class="home-banner-area" style="margin-top:80px;">
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-center">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-7 mx-auto">
+                        <div class="card card-signin flex-row my-5">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Giriş</h5>
+                                <form class="form-signin" method="post" action="/UyeGiris/UyeGiris">
+                                    <div class="form-label-group">
+                                        <input type="email" id="inputEmail" class="form-control" placeholder="Mail adres" required name="Email">
+                                        <label for="inputEmail">Mail adres</label>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="form-label-group">
+                                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="sifre">
+                                        <label for="inputPassword">Şifre</label>
+                                    </div>
+                                    @*<p class="ml-3" style="display:inline-block">Beni hatırla</p>
+                                    <a style="margin-left:340px;" href="#"> Şifremi unuttum</a>*@
+                                    @*<div class="primary-switch form-label-group" style="display:inline-block">
+                                        <input type="checkbox" id="default-switch" name="benihatirla" value="true">
+                                        <label class="ml-3" for="default-switch"></label>
+                                    </div>*@
+                                    <span class="text-danger " style="margin-left:230px;"> @Html.ValidationSummary(true)</span>
+                                    <br />
+                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Giriş</button>
+                                    <a class="d-block text-center mt-2 small" href="/UyeKayit/UyeKayit">Kayıt</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section script{
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+}
+

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NotBankasiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NotBilgileri">
+    <Key>
+      <PropertyRef Name="Not_Id" />
+    </Key>
+    <Property Name="Not_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NotAdı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DersAdı" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="DersOgretimUyesi" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Universite_Id" Type="Int32" />
+    <Property Name="Yıl" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Donem" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="NotunAçıklaması" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Uye_Id" Type="Int32" />
+    <Property Name="NotYolu" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Universite" Relationship="Self.FK_NotBilgileri_Universite" FromRole="NotBilgileri" ToRole="Universite" />
+    <NavigationProperty Name="UyeBilgileris" Relationship="Self.FK_UYEBILGILERI_NOTBILGILERI" FromRole="NotBilgileri" ToRole="UyeBilgileri" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Universite">
+    <Key>
+      <PropertyRef Name="Universite_Id" />
+    </Key>
+    <Property Name="Universite_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniversiteAdı" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="NotBilgileris" Relationship="Self.FK_NotBilgileri_Universite" FromRole="Universite" ToRole="NotBilgileri" />
+    <NavigationProperty Name="Universite_Bolum" Relationship="Self.FK_UNIVERSITEBOLUM_UNIVERSITE" FromRole="Universite" ToRole="Universite_Bolum" />
+    <NavigationProperty Name="Universite_Fakulte" Relationship="Self.FK_Universite_Fakulte_Universite" FromRole="Universite" ToRole="Universite_Fakulte" />
+    <NavigationProperty Name="UyeBilgileris" Relationship="Self.FK_UyeBilgileri_Universite" FromRole="Universite" ToRole="UyeBilgileri" />
+  </EntityType>
+  <EntityType Name="Universite_Bolum">
+    <Key>
+      <PropertyRef Name="Bolum_Id" />
+    </Key>
+    <Property Name="Bolum_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fakulte_Id" Type="Int32" Nullable="false" />
+    <Property Name="Universite_Id" Type="Int32" Nullable="false" />
+    <Property Name="BolumAdı" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Universite" Relationship="Self.FK_UNIVERSITEBOLUM_UNIVERSITE" FromRole="Universite_Bolum" ToRole="Universite" />
+    <NavigationProperty Name="Universite_Fakulte" Relationship="Self.FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE" FromRole="Universite_Bolum" ToRole="Universite_Fakulte" />
+    <NavigationProperty Name="UyeBilgileris" Relationship="Self.FK_UyeBilgileri_Universite_Bolum" FromRole="Universite_Bolum" ToRole="UyeBilgileri" />
+  </EntityType>
+  <EntityType Name="Universite_Fakulte">
+    <Key>
+      <PropertyRef Name="Fakulte_Id" />
+    </Key>
+    <Property Name="Fakulte_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FakulteAdı" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Universite_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Universite" Relationship="Self.FK_Universite_Fakulte_Universite" FromRole="Universite_Fakulte" ToRole="Universite" />
+    <NavigationProperty Name="Universite_Bolum" Relationship="Self.FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE" FromRole="Universite_Fakulte" ToRole="Universite_Bolum" />
+  </EntityType>
+  <EntityType Name="UyeBilgileri">
+    <Key>
+      <PropertyRef Name="Uye_Id" />
+    </Key>
+    <Property Name="Uye_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullanıcıAdı" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="İsim" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Soyisim" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="ResimYolu" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Universite_Id" Type="Int32" />
+    <Property Name="Bolum_Id" Type="Int32" />
+    <Property Name="Yorum_Id" Type="Int32" />
+    <Property Name="Not_Id" Type="Int32" />
+    <NavigationProperty Name="NotBilgileri" Relationship="Self.FK_UYEBILGILERI_NOTBILGILERI" FromRole="UyeBilgileri" ToRole="NotBilgileri" />
+    <NavigationProperty Name="Universite" Relationship="Self.FK_UyeBilgileri_Universite" FromRole="UyeBilgileri" ToRole="Universite" />
+    <NavigationProperty Name="Universite_Bolum" Relationship="Self.FK_UyeBilgileri_Universite_Bolum" FromRole="UyeBilgileri" ToRole="Universite_Bolum" />
+    <NavigationProperty Name="YorumBilgileri" Relationship="Self.FK_UYEBILGILERI_YORUMBILGILERI" FromRole="UyeBilgileri" ToRole="YorumBilgileri" />
+  </EntityType>
+  <EntityType Name="YorumBilgileri">
+    <Key>
+      <PropertyRef Name="Yorum_Id" />
+    </Key>
+    <Property Name="Yorum_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Yorum" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Not_Id" Type="Int32" Nullable="false" />
+    <Property Name="Uye_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="UyeBilgileris" Relationship="Self.FK_UYEBILGILERI_YORUMBILGILERI" FromRole="YorumBilgileri" ToRole="UyeBilgileri" />
+  </EntityType>
+  <EntityType Name="Mesaj">
+    <Key>
+      <PropertyRef Name="İsim" />
+      <PropertyRef Name="Baslık" />
+      <PropertyRef Name="Acıklama" />
+      <PropertyRef Name="Mesaj1" />
+    </Key>
+    <Property Name="İsim" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Baslık" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Acıklama" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mesaj1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_NotBilgileri_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="0..1" />
+    <End Role="NotBilgileri" Type="Self.NotBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="NotBilgileri">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UYEBILGILERI_NOTBILGILERI">
+    <End Role="NotBilgileri" Type="Self.NotBilgileri" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NotBilgileri">
+        <PropertyRef Name="Not_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Not_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UNIVERSITEBOLUM_UNIVERSITE">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="1" />
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="Universite_Bolum">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Universite_Fakulte_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="1" />
+    <End Role="Universite_Fakulte" Type="Self.Universite_Fakulte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="Universite_Fakulte">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UyeBilgileri_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE">
+    <End Role="Universite_Fakulte" Type="Self.Universite_Fakulte" Multiplicity="1" />
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite_Fakulte">
+        <PropertyRef Name="Fakulte_Id" />
+      </Principal>
+      <Dependent Role="Universite_Bolum">
+        <PropertyRef Name="Fakulte_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UyeBilgileri_Universite_Bolum">
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite_Bolum">
+        <PropertyRef Name="Bolum_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Bolum_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UYEBILGILERI_YORUMBILGILERI">
+    <End Role="YorumBilgileri" Type="Self.YorumBilgileri" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="YorumBilgileri">
+        <PropertyRef Name="Yorum_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Yorum_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NotBankasiEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NotBilgileris" EntityType="Self.NotBilgileri" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Universites" EntityType="Self.Universite" />
+    <EntitySet Name="Universite_Bolum" EntityType="Self.Universite_Bolum" />
+    <EntitySet Name="Universite_Fakulte" EntityType="Self.Universite_Fakulte" />
+    <EntitySet Name="UyeBilgileris" EntityType="Self.UyeBilgileri" />
+    <EntitySet Name="YorumBilgileris" EntityType="Self.YorumBilgileri" />
+    <EntitySet Name="Mesajs" EntityType="Self.Mesaj" />
+    <AssociationSet Name="FK_NotBilgileri_Universite" Association="Self.FK_NotBilgileri_Universite">
+      <End Role="Universite" EntitySet="Universites" />
+      <End Role="NotBilgileri" EntitySet="NotBilgileris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UYEBILGILERI_NOTBILGILERI" Association="Self.FK_UYEBILGILERI_NOTBILGILERI">
+      <End Role="NotBilgileri" EntitySet="NotBilgileris" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UNIVERSITEBOLUM_UNIVERSITE" Association="Self.FK_UNIVERSITEBOLUM_UNIVERSITE">
+      <End Role="Universite" EntitySet="Universites" />
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Universite_Fakulte_Universite" Association="Self.FK_Universite_Fakulte_Universite">
+      <End Role="Universite" EntitySet="Universites" />
+      <End Role="Universite_Fakulte" EntitySet="Universite_Fakulte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UyeBilgileri_Universite" Association="Self.FK_UyeBilgileri_Universite">
+      <End Role="Universite" EntitySet="Universites" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE" Association="Self.FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE">
+      <End Role="Universite_Fakulte" EntitySet="Universite_Fakulte" />
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UyeBilgileri_Universite_Bolum" Association="Self.FK_UyeBilgileri_Universite_Bolum">
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UYEBILGILERI_YORUMBILGILERI" Association="Self.FK_UYEBILGILERI_YORUMBILGILERI">
+      <End Role="YorumBilgileri" EntitySet="YorumBilgileris" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileris" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

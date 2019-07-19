@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NotBankasiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'NotBankasi.dbo.Mesaj' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Mesaj">
+    <Key>
+      <PropertyRef Name="İsim" />
+      <PropertyRef Name="Baslık" />
+      <PropertyRef Name="Acıklama" />
+      <PropertyRef Name="Mesaj" />
+    </Key>
+    <Property Name="İsim" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Baslık" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Acıklama" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Mesaj" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NotBilgileri">
+    <Key>
+      <PropertyRef Name="Not_Id" />
+    </Key>
+    <Property Name="Not_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NotAdı" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DersAdı" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="DersOgretimUyesi" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Universite_Id" Type="int" Nullable="false" />
+    <Property Name="Yıl" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Donem" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="NotunAçıklaması" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Uye_Id" Type="int" Nullable="false" />
+    <Property Name="NotYolu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Universite">
+    <Key>
+      <PropertyRef Name="Universite_Id" />
+    </Key>
+    <Property Name="Universite_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UniversiteAdı" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Universite_Bolum">
+    <Key>
+      <PropertyRef Name="Bolum_Id" />
+    </Key>
+    <Property Name="Bolum_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fakulte_Id" Type="int" Nullable="false" />
+    <Property Name="Universite_Id" Type="int" Nullable="false" />
+    <Property Name="BolumAdı" Type="varchar" MaxLength="70" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Universite_Fakulte">
+    <Key>
+      <PropertyRef Name="Fakulte_Id" />
+    </Key>
+    <Property Name="Fakulte_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FakulteAdı" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Universite_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UyeBilgileri">
+    <Key>
+      <PropertyRef Name="Uye_Id" />
+    </Key>
+    <Property Name="Uye_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullanıcıAdı" Type="nvarchar" MaxLength="40" />
+    <Property Name="İsim" Type="nvarchar" MaxLength="40" />
+    <Property Name="Soyisim" Type="nvarchar" MaxLength="40" />
+    <Property Name="ResimYolu" Type="nvarchar" MaxLength="40" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="30" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="30" />
+    <Property Name="Universite_Id" Type="int" />
+    <Property Name="Bolum_Id" Type="int" />
+    <Property Name="Yorum_Id" Type="int" />
+    <Property Name="Not_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="YorumBilgileri">
+    <Key>
+      <PropertyRef Name="Yorum_Id" />
+    </Key>
+    <Property Name="Yorum_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Yorum" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Not_Id" Type="int" Nullable="false" />
+    <Property Name="Uye_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_NotBilgileri_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="1" />
+    <End Role="NotBilgileri" Type="Self.NotBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="NotBilgileri">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UNIVERSITEBOLUM_UNIVERSITE">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="1" />
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="Universite_Bolum">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE">
+    <End Role="Universite_Fakulte" Type="Self.Universite_Fakulte" Multiplicity="1" />
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite_Fakulte">
+        <PropertyRef Name="Fakulte_Id" />
+      </Principal>
+      <Dependent Role="Universite_Bolum">
+        <PropertyRef Name="Fakulte_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Universite_Fakulte_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="1" />
+    <End Role="Universite_Fakulte" Type="Self.Universite_Fakulte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="Universite_Fakulte">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UYEBILGILERI_NOTBILGILERI">
+    <End Role="NotBilgileri" Type="Self.NotBilgileri" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NotBilgileri">
+        <PropertyRef Name="Not_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Not_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UYEBILGILERI_YORUMBILGILERI">
+    <End Role="YorumBilgileri" Type="Self.YorumBilgileri" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="YorumBilgileri">
+        <PropertyRef Name="Yorum_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Yorum_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UyeBilgileri_Universite">
+    <End Role="Universite" Type="Self.Universite" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite">
+        <PropertyRef Name="Universite_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Universite_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UyeBilgileri_Universite_Bolum">
+    <End Role="Universite_Bolum" Type="Self.Universite_Bolum" Multiplicity="0..1" />
+    <End Role="UyeBilgileri" Type="Self.UyeBilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Universite_Bolum">
+        <PropertyRef Name="Bolum_Id" />
+      </Principal>
+      <Dependent Role="UyeBilgileri">
+        <PropertyRef Name="Bolum_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NotBankasiModelStoreContainer">
+    <EntitySet Name="NotBilgileri" EntityType="Self.NotBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Universite" EntityType="Self.Universite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Universite_Bolum" EntityType="Self.Universite_Bolum" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Universite_Fakulte" EntityType="Self.Universite_Fakulte" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UyeBilgileri" EntityType="Self.UyeBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="YorumBilgileri" EntityType="Self.YorumBilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mesaj" EntityType="Self.Mesaj" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Mesaj].[İsim] AS [İsim], 
+    [Mesaj].[Baslık] AS [Baslık], 
+    [Mesaj].[Acıklama] AS [Acıklama], 
+    [Mesaj].[Mesaj] AS [Mesaj]
+    FROM [dbo].[Mesaj] AS [Mesaj]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_NotBilgileri_Universite" Association="Self.FK_NotBilgileri_Universite">
+      <End Role="Universite" EntitySet="Universite" />
+      <End Role="NotBilgileri" EntitySet="NotBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UNIVERSITEBOLUM_UNIVERSITE" Association="Self.FK_UNIVERSITEBOLUM_UNIVERSITE">
+      <End Role="Universite" EntitySet="Universite" />
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE" Association="Self.FK_UNIVERSITEBOLUM_UNIVERSITEFAKULTE">
+      <End Role="Universite_Fakulte" EntitySet="Universite_Fakulte" />
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Universite_Fakulte_Universite" Association="Self.FK_Universite_Fakulte_Universite">
+      <End Role="Universite" EntitySet="Universite" />
+      <End Role="Universite_Fakulte" EntitySet="Universite_Fakulte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UYEBILGILERI_NOTBILGILERI" Association="Self.FK_UYEBILGILERI_NOTBILGILERI">
+      <End Role="NotBilgileri" EntitySet="NotBilgileri" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UYEBILGILERI_YORUMBILGILERI" Association="Self.FK_UYEBILGILERI_YORUMBILGILERI">
+      <End Role="YorumBilgileri" EntitySet="YorumBilgileri" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UyeBilgileri_Universite" Association="Self.FK_UyeBilgileri_Universite">
+      <End Role="Universite" EntitySet="Universite" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UyeBilgileri_Universite_Bolum" Association="Self.FK_UyeBilgileri_Universite_Bolum">
+      <End Role="Universite_Bolum" EntitySet="Universite_Bolum" />
+      <End Role="UyeBilgileri" EntitySet="UyeBilgileri" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

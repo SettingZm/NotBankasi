@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="~/img/logo.png">
+
+    <meta name="author" content="codepixer">
+
+    <meta name="description" content="Üniversite ders notları bulma sitesi">
+
+    <meta name="keywords" content="ders,ders notu,not">
+
+    <meta charset="UTF-8">
+
+    <title>Not Bankası</title>
+
+    <!-- Anasayfa ve Footer CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Css/font-awesome.min.css">
+    <link href="/Css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Css/bootstrap.css">
+    <link rel="stylesheet" href="/Css/main.css">
+    <link href="/Css/Footer-with-button-logo.css" rel="stylesheet" />
+
+    <!-- Anasayfa ve Footer CSS -->
+
+    @RenderSection("head", false)
+
+</head>
+<body>
+    @* Scroll Backroundu unutma *@
+    @* Backround değişecek _head.scss *@
+    @* Rengi solnav bar ile aynı olcak *@
+    <header id="header" class="asa" style="background-color: #4e73df; background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#4e73df),to(#224abe)); background-image: linear-gradient(180deg,#4e73df 10%,#130f40 100%);background-size: cover;">
+        <button type="button" id="mobile-nav-toggle">
+            <i class="fa fa-bars !important" aria-hidden="true"></i>
+        </button>
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo" class="col-md-4">
+                    <a href="/AnaSayfa/AnaSayfa"><img src="~/img/logo.png" alt="" title="" /></a>
+                    <h3 style="color:white;font-family:Cambria">not bankası.com</h3>
+                </div>
+                @*<div class="col-md-8 mt-2">
+                        <h3 style="color:white;font-family:Aharoni">not bankasi.com</h3>
+                    </div>*@
+                <nav id="nav-menu-container" class="col-md-3">
+                    <ul class="nav-menu">
+                        <li class="absolute-right">
+                            <b class="px-5">
+                                @* font awesome veya gliphivon ekle iconlar değişssin *@
+                                <a class="btn" style="color:white;font-family:Cambria;" href="/UyeGiris/UyeGiris"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Giriş</a>
+                                <a class="btn" style="color:white;font-family:Cambria;" href="/UyeKayit/UyeKayit/"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Kayıt</a>
+                            </b>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    @RenderBody()
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="logo" style="margin-top:20px;"><a href="/AnaSayfa/AnaSayfa"> Not Bankası </a></h2>
+                </div>
+                <div class="col-md-2">
+                    <h5>Anasayfa</h5>
+                    <ul>
+                        <li><a href="/AnaSayfa/AnaSayfa">Not Ara</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Not Bankası</h5>
+                    <ul>
+                        <li><a href="/Hakkinda/Hakkinda/">Hakkında</a></li>
+                        <li><a href="/BizKimiz/BizKimiz/">Biz Kimiz</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Destek</h5>
+                    <ul>
+                        <li> <a href="/iletisim/iletisim/">İletişim</a>  </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Tüm hakları saklıdır. | notbankası.com
+        </div>
+    </footer>
+
+    <div id="back-top">
+        <a title="Kaydır"></a>
+    </div>
+
+
+    <!-- Ana Sayfa ve Footer Script -->
+    @*<script src="~/Scripts/jquery-2.2.4.min.js"></script>*@
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/superfish.min.js"></script>
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/wow.min.js"></script>
+    <script src="~/Scripts/jquery.counterup.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+
+
+
+
+
+    @RenderSection("script", false)
+</body>
+</html>

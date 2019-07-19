@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="~/Css/all.min.css" rel="stylesheet" />
+    <link href="~/Css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/Css/bootstrap.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="/Css/Footer-with-button-logo.css" rel="stylesheet" />
+    @* sonradan ortak sayfalar için ekledim *@
+    <link rel="stylesheet" href="/Css/main.css">
+    <link rel="stylesheet" href="/Css/font-awesome.min.css">
+    @RenderSection("head", false)
+
+</head>
+<body>
+    <div id="page-top">
+        <div id="wrapper">
+
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <li class="nav-item active mt-5">
+
+                    <hr class="sidebar-divider">
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link collapsed " href="/UyeProfilDuzenle/UyeProfilDuzenle">
+                        <span class="lnr lnr-user"></span>
+                        <span>Profil </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="/UyeNotlari/UyeNotlari">
+                        <span class="lnr lnr-file-empty"></span>
+                        <span>Notlarım</span>
+                    </a>
+                    <hr class="sidebar-divider">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="/NotYukleme/NotYukleme">
+                        <span class="lnr lnr-file-add"></span>
+                        <span>Not Yükle</span>
+                    </a>
+                </li>
+                @*<li class="nav-item">
+                    <a class="nav-link collapsed" href="charts.html">
+                        <span class="lnr lnr-chart-bars"></span>
+                        <span>Panel</span>
+                    </a>
+                    <hr class="sidebar-divider d-none d-md-block">
+                </li>*@
+                <li class="nav-item">
+                    <a class="nav-link" href="/UyeGiris/UyeCikis">
+                        <span class="lnr lnr-exit"></span>
+                        <span>Çıkış</span>
+                    </a>
+                </li>
+                <li class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </li>
+            </ul>
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div id="content">
+                    <div class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <span class="lnr lnr-menu"></span>
+                        </button>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="topbar-divider"></li>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-link">
+                                    <span class="mr-5 d-lg-inline text-gray-600 medium">@Session["KullaniciIsmi"].ToString()</span>
+                                    <img class="img-profile rounded-circle" src="~/img/@Session["KullaniciResmi"].ToString()">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid">
+
+
+                        @RenderBody()
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="logo" style="margin-top:20px;"><a href="/AnaSayfa/AnaSayfa"> Not Bankası </a></h2>
+                </div>
+                <div class="col-md-2">
+                    <h5>Anasayfa</h5>
+                    <ul>
+                        <li><a href="/AnaSayfa/AnaSayfa">Not Ara</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Not Bankası</h5>
+                    <ul>
+                        <li><a href="/Hakkinda/Hakkinda/">Hakkında</a></li>
+                        <li><a href="/BizKimiz/BizKimiz/">Biz Kimiz</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Destek</h5>
+                    <ul>
+                        <li> <a href="/iletisim/iletisim/">İletişim</a>  </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <div class="social-networks">
+                        @*<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Tüm hakları saklıdır. | notbankası.com
+        </div>
+    </footer>
+
+    <div id="back-top">
+        <a title="Kaydır"></a>
+    </div>
+
+    <!-- Ana Alan Script -->
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/sb-admin-2.min.js"></script>
+    <!-- Ana Alan Script Sonu -->
+
+
+    @RenderSection("script", false)
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NotBankasiModelStoreContainer" CdmEntityContainer="NotBankasiEntities1">
+    <EntitySetMapping Name="NotBilgileris">
+      <EntityTypeMapping TypeName="NotBankasiModel.NotBilgileri">
+        <MappingFragment StoreEntitySet="NotBilgileri">
+          <ScalarProperty Name="Not_Id" ColumnName="Not_Id" />
+          <ScalarProperty Name="NotAdı" ColumnName="NotAdı" />
+          <ScalarProperty Name="DersAdı" ColumnName="DersAdı" />
+          <ScalarProperty Name="DersOgretimUyesi" ColumnName="DersOgretimUyesi" />
+          <ScalarProperty Name="Universite_Id" ColumnName="Universite_Id" />
+          <ScalarProperty Name="Yıl" ColumnName="Yıl" />
+          <ScalarProperty Name="Donem" ColumnName="Donem" />
+          <ScalarProperty Name="NotunAçıklaması" ColumnName="NotunAçıklaması" />
+          <ScalarProperty Name="Uye_Id" ColumnName="Uye_Id" />
+          <ScalarProperty Name="NotYolu" ColumnName="NotYolu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="NotBankasiModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universites">
+      <EntityTypeMapping TypeName="NotBankasiModel.Universite">
+        <MappingFragment StoreEntitySet="Universite">
+          <ScalarProperty Name="Universite_Id" ColumnName="Universite_Id" />
+          <ScalarProperty Name="UniversiteAdı" ColumnName="UniversiteAdı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universite_Bolum">
+      <EntityTypeMapping TypeName="NotBankasiModel.Universite_Bolum">
+        <MappingFragment StoreEntitySet="Universite_Bolum">
+          <ScalarProperty Name="Bolum_Id" ColumnName="Bolum_Id" />
+          <ScalarProperty Name="Fakulte_Id" ColumnName="Fakulte_Id" />
+          <ScalarProperty Name="Universite_Id" ColumnName="Universite_Id" />
+          <ScalarProperty Name="BolumAdı" ColumnName="BolumAdı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Universite_Fakulte">
+      <EntityTypeMapping TypeName="NotBankasiModel.Universite_Fakulte">
+        <MappingFragment StoreEntitySet="Universite_Fakulte">
+          <ScalarProperty Name="Fakulte_Id" ColumnName="Fakulte_Id" />
+          <ScalarProperty Name="FakulteAdı" ColumnName="FakulteAdı" />
+          <ScalarProperty Name="Universite_Id" ColumnName="Universite_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UyeBilgileris">
+      <EntityTypeMapping TypeName="NotBankasiModel.UyeBilgileri">
+        <MappingFragment StoreEntitySet="UyeBilgileri">
+          <ScalarProperty Name="Uye_Id" ColumnName="Uye_Id" />
+          <ScalarProperty Name="KullanıcıAdı" ColumnName="KullanıcıAdı" />
+          <ScalarProperty Name="İsim" ColumnName="İsim" />
+          <ScalarProperty Name="Soyisim" ColumnName="Soyisim" />
+          <ScalarProperty Name="ResimYolu" ColumnName="ResimYolu" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Universite_Id" ColumnName="Universite_Id" />
+          <ScalarProperty Name="Bolum_Id" ColumnName="Bolum_Id" />
+          <ScalarProperty Name="Yorum_Id" ColumnName="Yorum_Id" />
+          <ScalarProperty Name="Not_Id" ColumnName="Not_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YorumBilgileris">
+      <EntityTypeMapping TypeName="NotBankasiModel.YorumBilgileri">
+        <MappingFragment StoreEntitySet="YorumBilgileri">
+          <ScalarProperty Name="Yorum_Id" ColumnName="Yorum_Id" />
+          <ScalarProperty Name="Yorum" ColumnName="Yorum" />
+          <ScalarProperty Name="Not_Id" ColumnName="Not_Id" />
+          <ScalarProperty Name="Uye_Id" ColumnName="Uye_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mesajs">
+      <EntityTypeMapping TypeName="NotBankasiModel.Mesaj">
+        <MappingFragment StoreEntitySet="Mesaj">
+          <ScalarProperty Name="İsim" ColumnName="İsim" />
+          <ScalarProperty Name="Baslık" ColumnName="Baslık" />
+          <ScalarProperty Name="Acıklama" ColumnName="Acıklama" />
+          <ScalarProperty Name="Mesaj1" ColumnName="Mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

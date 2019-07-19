@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "UyeKayit";
+    Layout = "~/Views/Shared/_LayoutKullanici.cshtml";
+}
+
+
+@section head{
+    <head>
+        @* Kayıt sayfası CSS *@
+
+        <link href="~/Css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Css/UyeKayıtSayfası.css" rel="stylesheet" />
+    </head>
+}
+<div class="home-banner-area" style="margin-top:80px;">
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-center">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="lg-8 col-xl-7 mx-auto">
+                        <div class="card card-signin flex-row my-5">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Kayıt</h5>
+                                <form class="form-signin" action="/UyeKayit/UyeKayit" method="post">
+                                    <div class="form-label-group">
+                                        <input type="text" id="inputUserame" class="form-control" name="isim" placeholder="İsminiz" required autofocus>
+                                        <label for="inputUserame">İsim</label>
+                                    </div>
+                                    <div class="form-label-group">
+                                        <input type="text" id="inputSurname" class="form-control" name="Soyisim" placeholder="Soyisminiz" required autofocus>
+                                        <label for="inputSurname">Soyismin</label>
+                                    </div>
+
+                                    <div class="form-label-group">
+                                        <input type="email" id="inputEmail" class="form-control" name="Email" placeholder="Mail adresiniz" required>
+                                        <label for="inputEmail">Email adres</label>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="form-label-group">
+                                        <input type="password" id="inputPassword" class="form-control" name="Sifre" placeholder="Şifre" required>
+                                        <label for="inputPassword">Şifre</label>
+                                    </div>
+
+                                    <div class="form-label-group">
+                                        <input type="password" id="inputConfirmPassword" class="form-control" name="SifreOnay" placeholder="Şifre Onay" required>
+                                        <label for="inputConfirmPassword">Şifre Onayla</label>
+                                    </div>
+                                    <div class="text-center">
+                                        <span class="text text-danger">@ViewBag.mesaj</span>
+                                    </div>
+                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Kayıt</button>
+                                    <a class="d-block text-center mt-2 small" href="/UyeGiris/UyeGiris">Giriş</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section script{
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+    @* lAYOUT TAKİ DİĞER SCRİPT DOSUAYI İLE KARIŞIYOR *@
+    @*<script src="/Scripts/RegisterPage/jquery.slim.min.js"></script>*@
+
+}

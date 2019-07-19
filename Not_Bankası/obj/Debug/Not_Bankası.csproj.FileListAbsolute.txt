@@ -1,0 +1,507 @@
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Not_Bankası.dll.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Not_Bankası.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Not_Bankası.pdb
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csc.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csc.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csc.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csi.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csi.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\csi.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.AppContext.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Console.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\vbc.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\vbc.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\vbc.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Helpers.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Mvc.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Razor.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Razor.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Helpers.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\System.Web.Mvc.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.pdb
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Not_Bankası.dll.config
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Not_Bankası.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Not_Bankası.pdb
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csc.exe
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csc.exe.config
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csc.rsp
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csi.exe
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csi.exe.config
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\csi.rsp
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.AppContext.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Console.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\vbc.exe
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\vbc.exe.config
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\vbc.rsp
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Helpers.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Mvc.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Razor.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Razor.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Helpers.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\System.Web.Mvc.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\obj\Debug\Not_Bankası.pdb
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\EntityFramework.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\EntityFramework.SqlServer.dll
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\EntityFramework.xml
+C:\Users\melih\Desktop\Not_Bankası\Not_Bankası\bin\EntityFramework.SqlServer.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll.config
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.pdb
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe.config
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.rsp
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe.config
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.rsp
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.AppContext.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Console.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe.config
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.rsp
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.dll
+C:\Users\melih\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.pdb
+D:\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+D:\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+D:\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.dll
+D:\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.pdb
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll.config
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.pdb
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe.config
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.rsp
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe.config
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.rsp
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.AppContext.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Console.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe.config
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.rsp
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+D:\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+D:\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+D:\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.xml
+D:\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.pdb
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.AppContext.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Console.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.rsp
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.dll
+C:\Users\Ali ÇAKIR\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.pdb
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll.config
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.pdb
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe.config
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.rsp
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe.config
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.rsp
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.AppContext.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Console.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe.config
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.rsp
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\NB\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+G:\NB\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+G:\NB\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+G:\NB\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.dll
+G:\NB\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.pdb
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll.config
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Not_Bankası.pdb
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.exe.config
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csc.rsp
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.exe.config
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\csi.rsp
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.AppContext.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Console.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Compression.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Claims.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.ValueTuple.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.exe.config
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\vbc.rsp
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\EntityFramework.SqlServer.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Razor.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Webpages.Razor.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Helpers.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\System.Web.Mvc.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csprojAssemblyReference.cache
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CoreCompileInputs.cache
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.csproj.CopyComplete
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.dll
+C:\Users\Section2\Desktop\Not_Bankası - Kopya\Not_Bankası\obj\Debug\Not_Bankası.pdb

@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "UyeProfilDuzenle";
+    Layout = "~/Views/Shared/_LayoutUye.cshtml";
+}
+@section head{
+    <head>
+
+        <link href="~/Css/main.css" rel="stylesheet" />
+        <link href="~/Css/AvatarCSS.css" rel="stylesheet" />
+    </head>
+
+}
+
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Profil Düzenle</h1>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card-body">
+            <div class="content">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>İsim</label>
+                                <input type="text" class="form-control" placeholder="İsim" value="İsim">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Soyisim</label>
+                                <input type="text" class="form-control" placeholder="Soyisim" value="Soyisim">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Şifre</label>
+                                <input type="password" class="form-control" placeholder="Şifre" value="Şifre">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Şifre onay</label>
+                                <input type="password" class="form-control" placeholder="Şifre Onay" value="Şifre">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Üniversite</label>
+                                <select class="form-control" name="comboUni">
+                                    <option hidden>Üniversite</option>
+                                    <option>Kocaali Ünivesitesi</option>
+                                    <option>Düzce Üniversitesi</option>
+                                    <option>İstanbul Üniversitesi</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Bölüm</label>
+                                <select class="form-control" name="comboUni">
+                                    <option hidden>Bölüm</option>
+                                    <option>İktisat</option>
+                                    <option>Fen Bilgisi Öğretmenliği</option>
+                                    <option>Gıda Mühendisliği</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label>Onay Mesajı</label>
+                                <input type="text" class="form-control" placeholder="Onay" value="Onay Mesajı" style="display:inline-block">
+                                <label class="text-danger">Mail adresinize gönderilen şifreyi bu alana giriniz</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-fill ">Güncelle</button>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 ">
+        <div class="widget-wrap">
+
+            <div class="single-sidebar-widget user-info-widget">
+                <div class="container">
+                    <div class="picture-container">
+                        <div class="picture">
+                            <img src="~/img/user.jpg" class="picture-src" id="wizardPicturePreview" title="">
+                            <input type="file" id="wizard-picture" class="">
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <span class="h4">Kullanıcı Adı</span><br />
+                <span>Üniversite</span>
+                <br />
+                <span>Bölüm</span>
+            </div>
+        </div>
+    </div>
+</div>
+

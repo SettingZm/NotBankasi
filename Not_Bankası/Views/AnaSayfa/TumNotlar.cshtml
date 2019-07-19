@@ -1,0 +1,90 @@
+﻿@using Not_Bankası.Models
+@{
+    ViewBag.Title = "TumNotlar";
+    //Layout = "~/Views/Shared/_LayoutUye.cshtml";
+}
+
+
+@section head{
+    <link href="~/Css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Css/TumNotlarınSayfası.css" rel="stylesheet" />
+}
+
+@* bursaı kullanıcı ve user ile ortak sayfa  *@
+@model List<NotBilgileri>
+
+
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Not Ara</h1>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="main-box clearfix">
+            <div class="table-responsive">
+                <form action="/AnaSayfa/DownloadFile" method="post">
+                    <table class="table user-list" style="margin-top:80px">
+                        <thead>
+                            <tr>
+                                <th><span>Ders Adı</span></th>
+                                <th class="text-center"><span>Not Adı</span></th>
+                                <th class="text-center"><span>Yıl</span></th>
+                                <th class="text-center"><span>Dönem</span></th>
+                                <th class="text-center"><span>Öğretim Üyesi Adı</span></th>
+                                <th class="text-center"><span>NotYolu</span></th>
+                                <th class="text-center"><span>Araçlar</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (NotBilgileri not in Model)
+                            {
+                            <tr>
+                                <td>
+                                    <img src="~/img/pdfimage.png" alt="">
+                                    <label class="label label-success pt-3">@not.DersAdı</label>
+                                </td>
+                                <td class="text-center">
+                                    <label class="label label-success pt-3">@not.NotAdı</label>
+                                </td>
+                                <td class="text-center">
+                                    <label class="label label-success pt-3">@not.Yıl</label>
+                                </td>
+                                <td class="text-center">
+                                    <label class="label label-success pt-3">@not.Donem</label>
+                                </td>
+                                <td class="text-center">
+                                    <label class="label label-success pt-3">@not.DersOgretimUyesi</label>
+                                </td>
+                                <td class="text-center">
+                                    @*<a type="text" class="label label-success pt-3" value=@not.NotYolu name="NotYolu" >*@
+                                    @*<a href="/AnaSayfa/DownloadFile/@not.Not_Id">indir</a>*@
+                                </td>
+                                <td class="text-center">
+                                    @*<input type="hidden" id="hidDocumentID" name="DocumentID" value="" />*@
+                                    @*<input class="btn btn-primary " type="submit" title="İndir" value="0" onclick="location.href='@Url.Action("DownloadFile","AnaSayfa",new { id=not.Not_Id})'"/>*@
+                                    @*<a href="AnaSayfa/DownloadFile?file=@not.NotYolu" >İndir</a>*@
+                                    @Html.ActionLink("İndir","DownloadFile",new { file= not.Not})
+
+                                </td>
+                            </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div aria-label="Page navigation ">
+                <ul class="pagination pull-right">
+                    <li class="page-item "><a class="page-link" href="#">Geri</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">İleri</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

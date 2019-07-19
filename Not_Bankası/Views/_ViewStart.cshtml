@@ -1,0 +1,13 @@
+﻿@{
+
+    if (User.Identity.IsAuthenticated)
+    {
+        
+        Layout = "~/Views/Shared/_LayoutUye.cshtml";
+    }
+    else
+    {
+
+        Layout = "~/Views/Shared/_LayoutKullanici.cshtml";
+    }
+} 

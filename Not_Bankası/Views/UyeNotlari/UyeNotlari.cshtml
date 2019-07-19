@@ -1,0 +1,72 @@
+﻿@using Not_Bankası.Models
+@{
+    ViewBag.Title = "UyeNotlari";
+    Layout = "~/Views/Shared/_LayoutUye.cshtml";
+}
+
+@section head
+{
+    <head>
+        <!-- Tablo css leri -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="~/Css/TableCSS.css" rel="stylesheet" />
+        <!-- Tablo css leri -->
+    </head>
+
+}
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Notlarım</h1>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="container">
+            <div>             
+                <table class="table table-bordered">
+                    <thead class="btn-primary">
+                        <tr>
+                            <th>Format</th>
+                            <th>Ders Adı</th>
+                            <th>Not Adı</th>
+                            <th>Bölüm</th>
+                            <th>Üniveriste</th>
+                            <th>Düzenle</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-dark">
+                            @foreach (NotBilgileri item in Model)
+                            {
+                                <tr>
+
+                                    <td>
+                                        <img src="~/img/pdfimage.png" alt="" style="height:40px;width:30px">
+                                    </td>
+                                    <td class="text-center">
+                                        <label class="label label-success pt-3">@item.DersAdı</label>
+                                    </td>
+                                    <td class="text-center">
+                                        <label class="label label-success pt-3">@item.NotAdı</label>
+                                    </td>
+                                    <td class="text-center">
+                                        <label class="label label-success pt-3">@item.Universite_Bolum.BolumAdı</label>
+                                    </td>
+                                    <td class="text-center">
+                                        <label class="label label-success pt-3">@item.Universite.UniversiteAdı</label>
+                                    </td>
+                                    <td>
+                                        @*<button type="submit" class="btn btn-success"><i class="material-icons">&#xE872;</i></button>*@
+                                        @Html.ActionLink("Sil", "NotSil", new { NotId = item.Not_Id, @class = "btn-success" })
+                                    </td>
+                                </tr>
+                        }
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+    @section script{
+        <script src="~/Scripts/TablePageJS.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    }
+

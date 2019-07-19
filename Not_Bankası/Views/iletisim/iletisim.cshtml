@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "iletisim";
+    //Layout = "~/Views/Shared/_LayoutKullanici.cshtml";
+}
+
+
+<div style="background: url(/img/iletisim.png) no-repeat top center; background-size: cover;min-height: 312px;  margin-top: 108px;">
+    <div class="container">
+        <div class="flex-row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+                <h1 class="text-white">
+                    İletişim
+                </h1>
+                <p>
+                    In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
+                    the space telescope.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact-page-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 d-flex flex-column address-wrap">
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-home"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>İstanbul, Beşiktaş</h5>
+                        <p>
+                            Wissen Akedemi
+                        </p>
+                    </div>
+                </div>
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-phone-handset"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>0212 668 81 72</h5>
+                        <p>Çalışma saatleri:08:00-18:00</p>
+                    </div>
+                </div>
+                <div class="single-contact-address d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-envelope"></span>
+                    </div>
+                    <div class="contact-details">
+                        <h5>notbankasi@hotmail.com</h5>
+                        <p>Adresine mail göndere bilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <form class="form-area contact-form text-right" action="/iletisim/iletisim" method="post">
+                    <div class="row">
+                        <div class="col-lg-6 form-group">
+                            <input name="isim" placeholder="İsminiz" onfocus="this.placeholder = ''" onblur="this.placeholder = 'İsminiz'"
+                                   class="common-input mb-20 form-control" required="" type="text">
+                            <input name="email" placeholder="Mail Adres" onfocus="this.placeholder = 'Mail Adres'"
+                                   onblur="this.placeholder = 'Mail Adres'" class="common-input mb-20 form-control" required="" type="email">
+
+                            <input name="konu" placeholder="Konu" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Konu'"
+                                   class="common-input mb-20 form-control" required="" type="text">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <textarea class="common-textarea form-control" name="mesaj" placeholder="Mesaj..." onfocus="this.placeholder = ''"
+                                      onblur="this.placeholder = 'Mesajınız...'" required=""></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary wrn-btn mt-2 " style="float: right;">Gönder</button>
+                            <div class="alert-msg" style="text-align: left;">
+                                @if (@ViewBag.Success == true)
+                                {
+                                    <span class="text-success">Mesajınız başarıyla gönderilmiştir.</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
